@@ -1,0 +1,79 @@
+.checkoutIcon {
+  width: 2rem;
+  color: #4bb543;
+  height: 2rem;
+}
+
+.checkoutTitleContainer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.orderSummary {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderSummary h4 {
+  margin-bottom: 0.5rem;
+}
+
+.orderSummary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.orderSummary li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.orderItemImage {
+  width: 150x;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.orderItemDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderItemTitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.totalAmount {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.button {
+  width: 300px;
+  height: 75px;
+  background-color: rgb(134, 222, 168);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+  .checkoutMessage {
+    margin: 1rem 1rem;
+  }
+}
